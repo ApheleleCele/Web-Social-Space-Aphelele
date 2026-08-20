@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Keep this page hidden from search engines -->
+    <meta name="robots" content="noindex, nofollow, noarchive">
+
+    <meta name="description"
+          content="An analysis of negative applications and risks associated with three major 2026 IT trends from global and South African perspectives.">
+
+    <title>2026 IT Trends: Risks & Negative Applications | Aphelele Cele</title>
+
+    <!-- Existing website fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+          rel="stylesheet">
+
+    <!-- Your existing stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+        /* =========================================
+           HIDDEN IT TRENDS RESEARCH PAGE
+           ========================================= */
+
+        .research-hero {
+            background: var(--ink);
+            color: var(--paper);
+            padding: 100px 0 80px;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .research-hero .eyebrow {
+            color: var(--cyan);
+        }
+
+        .research-hero h1 {
+            color: var(--paper);
+            max-width: 950px;
+            font-size: clamp(42px, 7vw, 76px);
+            line-height: 0.98;
+            margin: 20px 0;
+        }
+
+        .research-intro {
+            max-width: 850px;
+            color: rgba(245,243,237,0.75);
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .research-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .research-meta span {
+            border: 1px solid rgba(255,255,255,0.18);
+            padding: 8px 13px;
+            border-radius: 100px;
+            font-family: "IBM Plex Mono", monospace;
+            font-size: 12px;
+        }
+
+        .research-section {
+            padding: 80px 0;
+        }
+
+        .research-section h2 {
+            font-size: clamp(32px, 5vw, 52px);
+            margin-bottom: 25px;
+        }
+
+        .research-section h3 {
+            font-size: 27px;
+            margin-top: 45px;
+            margin-bottom: 15px;
+        }
+
+        .research-section p {
+            max-width: 900px;
+            line-height: 1.85;
+            margin-bottom: 20px;
+        }
+
+        .research-section ul {
+            max-width: 850px;
+            line-height: 1.8;
+            padding-left: 25px;
+        }
+
+        .research-section li {
+            margin-bottom: 10px;
+        }
+
+        .trend-card {
+            border: 1px solid rgba(0,0,0,0.13);
+            padding: 35px;
+            margin: 35px 0;
+            background: rgba(0,0,0,0.025);
+        }
+
+        .trend-number {
+            font-family: "IBM Plex Mono", monospace;
+            font-size: 13px;
+            color: var(--cyan);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .trend-card h3 {
+            margin-top: 8px;
+        }
+
+        .risk-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 18px;
+            margin: 30px 0;
+        }
+
+        .risk-box {
+            border-left: 3px solid var(--cyan);
+            padding: 20px;
+            background: rgba(0,0,0,0.035);
+        }
+
+        .risk-box strong {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .global-sa {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 35px 0;
+        }
+
+        .perspective {
+            padding: 28px;
+            border: 1px solid rgba(0,0,0,0.13);
+        }
+
+        .perspective h4 {
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+
+        .perspective.global {
+            border-top: 4px solid var(--ink);
+        }
+
+        .perspective.sa {
+            border-top: 4px solid var(--cyan);
+        }
+
+        .key-insight {
+            background: var(--ink);
+            color: var(--paper);
+            padding: 35px;
+            margin: 45px 0;
+        }
+
+        .key-insight h3 {
+            color: var(--cyan);
+            margin-top: 0;
+        }
+
+        .key-insight p {
+            color: rgba(245,243,237,0.78);
+        }
+
+        .references {
+            background: var(--ink);
+            color: var(--paper);
+        }
+
+        .references h2 {
+            color: var(--paper);
+        }
+
+        .references ol {
+            max-width: 1000px;
+            padding-left: 25px;
+        }
+
+        .references li {
+            margin-bottom: 15px;
+            line-height: 1.7;
+            color: rgba(245,243,237,0.75);
+        }
+
+        .references a {
+            color: var(--cyan);
+        }
+
+        .back-link {
+            margin-top: 40px;
+        }
+
+        @media (max-width: 700px) {
+
+            .research-hero {
+                padding: 70px 0 60px;
+            }
+
+            .trend-card,
+            .key-insight,
+            .perspective {
+                padding: 24px;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <nav class="nav">
+
+        <a href="index.html" class="logo">
+            Aphelele Cele<span>/Social Space</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!--
+            IMPORTANT:
+            This page is intentionally NOT included
+            in the navigation menu.
+        -->
+
+        <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="interests.html">Interests</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <!-- =========================================
+         HERO
+         ========================================= -->
+
+    <section class="research-hero">
+
+        <div class="wrap">
+
+            <div class="eyebrow">
+                IT Trends Analysis · 2026
+            </div>
+
+            <h1>
+                Risks Behind the
+                Technology Revolution
+            </h1>
+
+            <p class="research-intro">
+                A critical exploration of three major 2026 IT trends
+                and how their legitimate capabilities can also create
+                opportunities for misuse, cybercrime, poor governance,
+                privacy violations and socio-economic disruption.
+            </p>
+
+            <div class="research-meta">
+                <span>GLOBAL PERSPECTIVE</span>
+                <span>SOUTH AFRICAN PERSPECTIVE</span>
+                <span>2026</span>
+                <span>CRITICAL ANALYSIS</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         INTRODUCTION
+         ========================================= -->
+
+    <section class="research-section">
+
+        <div class="wrap">
+
+            <div class="eyebrow">
+                Introduction
+            </div>
+
+            <h2>
+                Technology creates opportunity —
+                but also creates new forms of risk
+            </h2>
+
+            <p>
+                Information technology is developing at a pace that is
+                changing how organisations operate, how software is
+                produced and how cybersecurity is managed. Gartner's
+                2026 strategic technology trends demonstrate this shift,
+                with artificial intelligence appearing across several
+                areas of enterprise technology, including AI-native
+                development platforms, multiagent systems and AI
+                security platforms.
+            </p>
+
+            <p>
+                These technologies are primarily being developed to
+                improve productivity, automation, innovation and
+                organisational resilience. However, the same capabilities
+                that make them valuable can also create opportunities for
+                harmful or irresponsible use. Greater autonomy can mean
+                greater efficiency, but it can also mean that a system
+                performs an incorrect action at greater speed and scale.
+                AI-assisted development can make software creation easier,
+                but poorly reviewed AI-generated code can introduce
+                vulnerabilities. AI security systems can strengthen
+                defensive capabilities, but they can also become targets
+                themselves or create a false sense of security.
+            </p>
+
+            <p>
+                This analysis focuses on three trends identified in my
+                2026 Top IT Trends research: <strong>Multiagent Systems,
+                AI-Native Development Platforms, and AI Security
+                Platforms</strong>. The discussion considers how each
+                technology could be negatively used from a global
+                perspective and then examines why these risks are
+                particularly relevant to South Africa.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         TREND 1
+         ========================================= -->
+
+    <section class="research-section">
+
+        <div class="wrap">
+
+            <div class="trend-card">
+
+                <div class="trend-number">
+                    Trend 01 · Multiagent Systems
+                </div>
+
+                <h2>
+                    Multiagent Systems and Agentic AI
+                </h2>
+
+                <p>
+                    Multiagent systems consist of multiple AI agents that
+                    can collaborate to complete complex tasks. Gartner
+                    identifies multiagent systems as one of its ten
+                    strategic technology trends for 2026, describing them
+                    as systems where specialised AI agents can work
+                    together across complex workflows.
+                </p>
+
+                <p>
+                    The attraction of this technology is its ability to
+                    divide complicated tasks between specialised agents.
+                    An organisation could, for example, use different
+                    agents for research, analysis, communication,
+                    planning and execution. The problem is that giving
+                    multiple agents access to data, applications and
+                    external tools also increases the number of points at
+                    which something can go wrong.
+                </p>
+
+
+                <h3>
+                    Negative and harmful applications
+                </h3>
+
+                <div class="risk-grid">
+
+                    <div class="risk-box">
+                        <strong>Autonomous decision errors</strong>
+                        Agents may make incorrect decisions and then
+                        propagate those decisions through other agents,
+                        increasing the scale of the original error.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>Excessive permissions</strong>
+                        An agent connected to email, databases, financial
+                        systems or other applications could cause serious
+                        consequences if its permissions are poorly
+                        controlled.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>Prompt injection</strong>
+                        Malicious information contained in websites,
+                        documents, emails or repositories could manipulate
+                        an agent into performing an unintended action.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>Data leakage</strong>
+                        Agents may access and transfer sensitive information
+                        when their access boundaries and authorisation
+                        controls are poorly designed.
+                    </div>
+
+                </div>
+
+                <p>
+                    IBM's analysis of AI-agent risks highlights that agents
+                    can be manipulated through compromised external
+                    resources, manipulated objectives and unauthorised
+                    access. The risks become particularly serious because
+                    agents are capable of taking actions rather than simply
+                    producing text.
+                </p>
+
+                <p>
+                    NIST similarly identifies agent-specific risks,
+                    including indirect prompt injection, data poisoning
+                    and situations where an AI system may pursue objectives
+                    in unintended ways. This demonstrates that agentic AI
+                    introduces a security problem that is different from
+                    simply asking a conventional chatbot a question.
+                </p>
+
+
+                <div class="global-sa">
+
+                    <div class="perspective global">
+
+                        <h4>Global perspective</h4>
+
+                        <p>
+                            Globally, the negative use of agentic AI could
+                            increase the scale and speed of cyberattacks.
+                            Instead of a criminal manually carrying out
+                            individual tasks, autonomous systems could
+                            potentially automate parts of reconnaissance,
+                            social engineering, fraud and other malicious
+                            activity. AI can therefore lower the technical
+                            barrier to some forms of cybercrime while
+                            increasing the volume of activity.
+                        </p>
+
+                    </div>
+
+
+                    <div class="perspective sa">
+
+                        <h4>South African perspective</h4>
+
+                        <p>
+                            South Africa is increasingly exposed to these
+                            risks because AI adoption is growing rapidly.
+                            ITWeb reported in May 2026 that approximately
+                            23.1% of South Africa's working-age population
+                            used an AI product during the first quarter of
+                            2026, placing South Africa 46th among 147
+                            economies measured.
+                        </p>
+
+                        <p>
+                            This growing adoption creates opportunities for
+                            productivity, but it also means that more
+                            organisations and individuals may introduce
+                            AI systems before their governance and
+                            cybersecurity practices have fully matured.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         TREND 2
+         ========================================= -->
+
+    <section class="research-section">
+
+        <div class="wrap">
+
+            <div class="trend-card">
+
+                <div class="trend-number">
+                    Trend 02 · AI-Native Development
+                </div>
+
+                <h2>
+                    AI-Native Development Platforms
+                </h2>
+
+                <p>
+                    AI-native development platforms use generative AI to
+                    assist with software design, coding, testing and
+                    development. Gartner identifies this as a major 2026
+                    trend and predicts that AI-native development could
+                    eventually allow organisations to operate with smaller
+                    software engineering teams augmented by AI.
+                </p>
+
+                <p>
+                    This development has significant potential benefits.
+                    Developers can generate prototypes faster, automate
+                    repetitive tasks and allow domain experts to participate
+                    more directly in software creation. However, reducing
+                    the technical barrier to software development also
+                    creates an important security concern: people who can
+                    create software more easily can also create insecure
+                    software more easily.
+                </p>
+
+
+                <h3>
+                    Negative and harmful applications
+                </h3>
+
+                <div class="risk-grid">
+
+                    <div class="risk-box">
+                        <strong>Insecure generated code</strong>
+                        AI-generated code may contain vulnerabilities,
+                        insecure configurations or outdated dependencies
+                        that are not immediately visible to inexperienced
+                        users.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>Reduced human oversight</strong>
+                        Developers may accept AI-generated code without
+                        fully understanding it, weakening accountability
+                        and code-review processes.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>Exposure of confidential information</strong>
+                        Developers may unintentionally expose source code,
+                        credentials, personal information or business
+                        information to AI tools through prompts or
+                        development context.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>Software supply-chain risk</strong>
+                        AI-generated dependencies, packages or code
+                        suggestions could introduce vulnerable or
+                        compromised components into applications.
+                    </div>
+
+                </div>
+
+                <p>
+                    OWASP's 2026 guidance on secure coding with AI warns
+                    that modern agentic coding tools can execute commands,
+                    install packages, edit files, access networks and
+                    perform other actions. This means that AI-assisted
+                    development is no longer limited to receiving a code
+                    suggestion: in some environments the AI can interact
+                    directly with the development environment.
+                </p>
+
+                <p>
+                    OWASP also identifies indirect prompt injection as a
+                    development risk. An AI coding agent may consume
+                    information from repositories, pull requests,
+                    documentation or other sources. If malicious
+                    instructions are embedded within that information, the
+                    agent could potentially be manipulated into making
+                    unwanted changes.
+                </p>
+
+                <p>
+                    Another concern is overreliance. OWASP's GenAI Security
+                    Project notes that AI-generated code can contain
+                    unnoticed security vulnerabilities. Passing tests
+                    therefore does not automatically mean that AI-generated
+                    software is secure.
+                </p>
+
+
+                <div class="global-sa">
+
+                    <div class="perspective global">
+
+                        <h4>Global perspective</h4>
+
+                        <p>
+                            Globally, AI-native development could increase
+                            software production at an unprecedented pace.
+                            However, if the amount of code being produced
+                            increases faster than security teams can review
+                            it, organisations could create a larger
+                            vulnerability surface. The danger is therefore
+                            not simply that AI produces bad code; it is
+                            that AI can produce large quantities of code
+                            faster than humans can properly evaluate it.
+                        </p>
+
+                    </div>
+
+
+                    <div class="perspective sa">
+
+                        <h4>South African perspective</h4>
+
+                        <p>
+                            The issue also has a workforce dimension in
+                            South Africa. Local technology commentators
+                            have warned that widespread AI-assisted coding
+                            could reduce opportunities for junior developers
+                            to gain the practical experience traditionally
+                            obtained through entry-level programming work.
+                        </p>
+
+                        <p>
+                            This creates a long-term risk. If junior
+                            developers have fewer opportunities to learn
+                            debugging, architecture, testing and secure
+                            coding under supervision, South Africa could
+                            eventually experience a shortage of experienced
+                            software engineers even while AI-assisted
+                            development becomes more widespread.
+                        </p>
+
+                        <p>
+                            This concern is especially important because
+                            South Africa is already increasing its AI
+                            adoption and has a growing technology workforce.
+                            The challenge is therefore to use AI to augment
+                            developers rather than eliminate the learning
+                            pathway through which future senior developers
+                            are developed.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         TREND 3
+         ========================================= -->
+
+    <section class="research-section">
+
+        <div class="wrap">
+
+            <div class="trend-card">
+
+                <div class="trend-number">
+                    Trend 03 · AI Security
+                </div>
+
+                <h2>
+                    AI Security Platforms
+                </h2>
+
+                <p>
+                    AI security platforms are designed to protect
+                    organisations from risks created by artificial
+                    intelligence. Gartner identifies AI security platforms
+                    as a major 2026 trend and describes them as a way of
+                    centralising visibility, policy enforcement and
+                    protection across third-party and internally developed
+                    AI applications.
+                </p>
+
+                <p>
+                    This trend is important because traditional
+                    cybersecurity controls were not designed for every
+                    characteristic of modern AI systems. AI introduces
+                    risks involving prompt injection, data leakage,
+                    model manipulation, insecure agents and unauthorised
+                    AI activity.
+                </p>
+
+
+                <h3>
+                    Negative and harmful applications
+                </h3>
+
+                <div class="risk-grid">
+
+                    <div class="risk-box">
+                        <strong>AI-enabled cyberattacks</strong>
+                        Criminals can use AI to make phishing, social
+                        engineering and fraud more convincing and scalable.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>Defensive AI can itself be attacked</strong>
+                        Security AI can be manipulated through poisoned
+                        data, adversarial inputs or malicious instructions.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>False confidence</strong>
+                        Organisations may believe that purchasing an AI
+                        security platform automatically makes them secure,
+                        resulting in insufficient human oversight.
+                    </div>
+
+                    <div class="risk-box">
+                        <strong>Privacy concerns</strong>
+                        Security systems may process large amounts of
+                        organisational and personal information, creating
+                        another important data-governance responsibility.
+                    </div>
+
+                </div>
+
+                <p>
+                    The global cybersecurity environment demonstrates why
+                    this trend is becoming increasingly important.
+                    INTERPOL's 2026 African Cyberthreat Assessment reports
+                    that AI is being used across the cybercrime lifecycle,
+                    including reconnaissance, phishing, extortion and
+                    evasion. The report indicates that 55% of surveyed
+                    cybercrime cases in Africa in 2025 involved AI
+                    occasionally or frequently.
+                </p>
+
+                <p>
+                    This illustrates an important paradox: AI is becoming
+                    both a cybersecurity defence capability and a tool
+                    available to attackers. Organisations therefore cannot
+                    simply adopt AI without simultaneously strengthening
+                    governance, identity management, monitoring and
+                    incident-response capabilities.
+                </p>
+
+
+                <div class="global-sa">
+
+                    <div class="perspective global">
+
+                        <h4>Global perspective</h4>
+
+                        <p>
+                            Globally, attackers can use AI to make malicious
+                            activity more scalable and convincing. AI can
+                            assist criminals in creating realistic social
+                            engineering content, automating repetitive
+                            operations and adapting communications to
+                            specific targets.
+                        </p>
+
+                        <p>
+                            The result is an expanding attack surface in
+                            which organisations must defend not only their
+                            traditional infrastructure but also their AI
+                            models, agents, data pipelines, prompts and
+                            integrations.
+                        </p>
+
+                    </div>
+
+
+                    <div class="perspective sa">
+
+                        <h4>South African perspective</h4>
+
+                        <p>
+                            The South African context is particularly
+                            significant because the country is one of
+                            Africa's major technology and financial centres
+                            and is increasingly adopting AI across
+                            organisations.
+                        </p>
+
+                        <p>
+                            At the same time, South Africa faces significant
+                            cybercrime exposure. INTERPOL's African
+                            Cyberthreat Assessment identifies AI as an
+                            increasingly important factor in the region's
+                            cybercrime environment.
+                        </p>
+
+                        <p>
+                            South African organisations therefore need to
+                            treat AI security as part of their wider
+                            cybersecurity and governance strategy rather
+                            than as a standalone technology purchase.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SOUTH AFRICAN GOVERNANCE
+         ========================================= -->
+
+    <section class="research-section">
+
+        <div class="wrap">
+
+            <div class="eyebrow">
+                South African Governance
+            </div>
+
+            <h2>
+                Why governance matters in South Africa
+            </h2>
+
+            <p>
+                The negative use of these technologies is not only a
+                technical issue. It is also a governance, legal and
+                societal issue. South Africa's Protection of Personal
+                Information Act (POPIA) places requirements on the
+                processing and transfer of personal information. Section
+                72 regulates transfers of personal information to
+                recipients in foreign countries and requires appropriate
+                protection or another recognised legal basis for the
+                transfer.
+            </p>
+
+            <p>
+                This becomes increasingly relevant as AI systems depend on
+                cloud platforms, external models, APIs, development tools
+                and third-party services. An organisation using an AI
+                system must therefore understand not only what the model
+                can do, but also what information is being processed, where
+                that information goes and who can access it.
+            </p>
+
+            <p>
+                South Africa is also developing its national AI policy
+                position. The 2026 Draft National AI Policy recognises that
+                AI is developing rapidly and proposes a staged,
+                sector-specific approach. The policy process emphasises
+                ethical standards, socio-economic safeguards and
+                collaboration between government, industry and other
+                stakeholders.
+            </p>
+
+            <div class="key-insight">
+
+                <h3>
+                    Critical insight
+                </h3>
+
+                <p>
+                    South Africa should not approach emerging IT trends
+                    simply as technologies that need to be adopted. The
+                    country needs to ask whether the institutions adopting
+                    them have the skills, cybersecurity controls, data
+                    governance and human oversight required to use them
+                    responsibly.
+                </p>
+
+                <p>
+                    This is particularly important because adoption is
+                    increasing faster than the development of some
+                    supporting capabilities. The opportunity is therefore
+                    not to reject AI, but to develop an environment in
+                    which innovation and responsible governance grow
+                    together.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         COMPARATIVE CONCLUSION
+         ========================================= -->
+
+    <section class="research-section">
+
+        <div class="wrap">
+
+            <div class="eyebrow">
+                Conclusion
+            </div>
+
+            <h2>
+                The real risk is uncontrolled capability
+            </h2>
+
+            <p>
+                The three trends examined in this analysis demonstrate
+                that technological progress is not automatically positive
+                or negative. Multiagent systems can automate complex
+                processes, but autonomous actions can amplify errors,
+                privilege abuse and data leakage. AI-native development
+                platforms can democratise software creation, but they can
+                also increase insecure code, reduce human oversight and
+                place pressure on traditional developer learning pathways.
+                AI security platforms can strengthen cyber defence, but
+                they operate within an environment where attackers are
+                simultaneously using AI to increase the scale and
+                sophistication of attacks.
+            </p>
+
+            <p>
+                From a global perspective, these trends demonstrate the
+                emergence of an increasingly AI-mediated digital
+                environment. The distinction between software, automation
+                and autonomous decision-making is becoming less clear.
+                Organisations therefore need to move beyond traditional
+                technology adoption models and consider security,
+                accountability and human oversight from the beginning.
+            </p>
+
+            <p>
+                From a South African perspective, the issue is even more
+                important because the country is simultaneously trying to
+                increase AI adoption, strengthen its digital economy,
+                develop technology skills and address cybersecurity risks.
+                South Africa should take advantage of these technologies,
+                but adoption must be accompanied by investment in digital
+                skills, cybersecurity, data protection, AI governance and
+                education.
+            </p>
+
+            <p>
+                Ultimately, the most important question is not whether
+                these technologies should be adopted. It is whether they
+                are being adopted responsibly. The same capabilities that
+                make AI powerful for legitimate organisations can make it
+                powerful for malicious actors. The future of IT therefore
+                depends not only on developing more capable systems, but
+                also on developing the governance, security and human
+                expertise necessary to control those capabilities.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         REFERENCES
+         ========================================= -->
+
+    <section class="research-section references">
+
+        <div class="wrap">
+
+            <div class="eyebrow">
+                References
+            </div>
+
+            <h2>
+                Sources consulted
+            </h2>
+
+            <ol>
+
+                <li>
+                    Gartner. (2025/2026).
+                    <em>Top Strategic Technology Trends for 2026.</em>
+                    Gartner.
+                    <br>
+                    <a href="https://www.gartner.com/en/articles/top-technology-trends-2026"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Gartner — Top Strategic Technology Trends for 2026
+                    </a>
+                </li>
+
+                <li>
+                    Gartner. (2026).
+                    <em>Gartner Identifies the Top Strategic Technology Trends for 2026.</em>
+                    Gartner Newsroom.
+                    <br>
+                    <a href="https://www.gartner.com/en/newsroom/press-releases/2025-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2026"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Gartner Newsroom
+                    </a>
+                </li>
+
+                <li>
+                    Gartner. (2026).
+                    <em>Gartner Identifies the Top Cybersecurity Trends for 2026.</em>
+                    Gartner Newsroom.
+                    <br>
+                    <a href="https://www.gartner.com/en/newsroom/press-releases/2026-02-05-gartner-identifies-the-top-cybersecurity-trends-for-2026"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Gartner — Cybersecurity Trends 2026
+                    </a>
+                </li>
+
+                <li>
+                    NIST. (2026).
+                    <em>Summary Analysis of Responses to the Request for Information Regarding Security Considerations for AI Agents.</em>
+                    National Institute of Standards and Technology.
+                    <br>
+                    <a href="https://www.nist.gov/publications/summary-analysis-responses-request-information-regarding-security-considerations-ai"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        NIST — AI Agent Security
+                    </a>
+                </li>
+
+                <li>
+                    NIST. (2026).
+                    <em>Insights into AI Agent Security from a Large-Scale Red-Teaming Competition.</em>
+                    National Institute of Standards and Technology.
+                    <br>
+                    <a href="https://www.nist.gov/blogs/caisi-research-blog/insights-ai-agent-security-large-scale-red-teaming-competition"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        NIST — AI Agent Security Research
+                    </a>
+                </li>
+
+                <li>
+                    IBM. (2025).
+                    <em>AI Agents: Opportunities, Risks, and Mitigations.</em>
+                    IBM.
+                    <br>
+                    <a href="https://www.ibm.com/downloads/documents/us-en/1227c12efb38b2b3"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        IBM — AI Agent Risks
+                    </a>
+                </li>
+
+                <li>
+                    OWASP. (2026).
+                    <em>Secure Coding with AI Cheat Sheet.</em>
+                    Open Worldwide Application Security Project.
+                    <br>
+                    <a href="https://cheatsheetseries.owasp.org/cheatsheets/Secure_Coding_with_AI_Cheat_Sheet.html"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        OWASP — Secure Coding with AI
+                    </a>
+                </li>
+
+                <li>
+                    OWASP GenAI Security Project.
+                    <em>LLM09: Overreliance.</em>
+                    <br>
+                    <a href="https://genai.owasp.org/llmrisk2023-24/llm09-overreliance/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        OWASP — Overreliance
+                    </a>
+                </li>
+
+                <li>
+                    INTERPOL. (2026).
+                    <em>African Cyberthreat Assessment Report 2026.</em>
+                    INTERPOL.
+                    <br>
+                    <a href="https://www.interpol.int/en/content/download/24663/file/INTERPOL%20AFRICAN%20CYBERTHREAT%20ASSESSMENT%20REPORT%202026%20%281%29.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        INTERPOL — African Cyberthreat Assessment
+                    </a>
+                </li>
+
+                <li>
+                    ITWeb. (2026, May 19).
+                    <em>SA ranks 46th out of 147 in AI adoption.</em>
+                    <br>
+                    <a href="https://www.itweb.co.za/article/sa-ranks-46th-out-of-147-in-ai-adoption/kLgB17ezVpVM59N4"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        ITWeb — South African AI Adoption
+                    </a>
+                </li>
+
+                <li>
+                    iAfrica. (2026, May 14).
+                    <em>Dariel Warns AI-Assisted Coding Could Hollow Out South Africa's Junior Developer Pipeline.</em>
+                    <br>
+                    <a href="https://iafrica.com/dariel-warns-ai-assisted-coding-could-hollow-out-south-africas-junior-developer-pipeline/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        iAfrica — AI-Assisted Coding in South Africa
+                    </a>
+                </li>
+
+                <li>
+                    Republic of South Africa, Department of Justice.
+                    <em>Protection of Personal Information Act 4 of 2013.</em>
+                    <br>
+                    <a href="https://www.justice.gov.za/legislation/acts/2013-004.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        POPIA — Official Legislation
+                    </a>
+                </li>
+
+                <li>
+                    Republic of South Africa, Government Gazette. (2026).
+                    <em>Draft National Artificial Intelligence Policy.</em>
+                    <br>
+                    <a href="https://www.gov.za/sites/default/files/gcis_document/202604/54477gen3880.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        South African Draft National AI Policy
+                    </a>
+                </li>
+
+            </ol>
+
+            <div class="back-link">
+
+                <a href="index.html" class="btn btn-ghost">
+                    ← Return to Aphelele's Social Space
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
