@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>From the Fourth to the Fifth Industrial Revolution — A Private Page | Aphelele Cele</title>
+  <meta name="description" content="4IR and 5IR: characteristics, benefits, challenges, and a critical read of the WEF Global Risks Report. Private page — shared by link only." />
+
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .private-flag{ background: var(--ink); color: var(--paper); font-family: var(--mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; text-align: center; padding: 9px 16px; }
+    .private-flag a{ color: var(--cyan); text-decoration: underline; }
+    .risk-box{ border-left: 3px solid var(--amber); background: rgba(232,163,61,0.08); padding: 18px 22px; margin: 18px 0; font-size: .96rem; }
+    .za-box{ border-left: 3px solid var(--cyan); background: rgba(62,184,196,0.08); padding: 18px 22px; margin: 18px 0; font-size: .96rem; }
+    .figure-wrap{ border: 1px solid var(--line); background: var(--paper); padding: 24px; margin: 24px 0; overflow-x:auto; }
+    .figure-caption{ font-family: var(--mono); font-size: 11.5px; color: var(--slate); margin-top: 12px; }
+    .mini-stats{ display:flex; flex-wrap:wrap; gap: 14px; margin: 22px 0; }
+    .mini-stat{ border: 1px solid var(--line); padding: 12px 16px; min-width: 170px; background: var(--paper); }
+    .mini-stat .num{ font-family: var(--display); font-size: 1.3rem; color: var(--ink); }
+    .mini-stat .lbl{ font-family: var(--mono); font-size: 10.5px; color: var(--slate); text-transform: uppercase; margin-top: 2px; }
+    .ref-list{ font-family: var(--mono); font-size: 12.5px; color: var(--ink-soft); line-height: 1.7; padding-left: 20px; }
+    .ref-list li{ margin-bottom: 12px; }
+    .ref-list a{ color: var(--cyan); word-break: break-all; }
+    .trend-sub{ font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--slate); margin: 26px 0 8px; }
+  </style>
+</head>
+<body>
+
+  <div class="private-flag">
+    Private page — shared by link only, not listed on the site. Please don't reshare this URL publicly. &middot; <a href="index.html">Back to apheleleCele.dev</a>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="logo">Aphelele Cele<span>/Social Space</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" style="padding-bottom:30px;">
+      <div class="wrap" style="grid-template-columns:1fr; text-align:left;">
+        <div>
+          <p class="role">4IR, 5IR, and where technology and society are actually heading</p>
+          <h1 style="font-size:clamp(2rem,4vw,3rem);">From the Fourth to the Fifth Industrial Revolution</h1>
+          <p class="lede" style="max-width:70ch;">
+            A brief exploration of how the Fourth Industrial Revolution's technology-first momentum is
+            giving way to a more human-centred Fifth Industrial Revolution — and what the World Economic
+            Forum's own risk data suggests about how urgent that shift has become.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="wrap">
+        <div class="eyebrow">The Fourth Industrial Revolution</div>
+        <h2 style="max-width:60ch;">A fusion of the physical, digital and biological</h2>
+        <p style="max-width:74ch;">
+          Klaus Schwab, founder of the World Economic Forum, describes the Fourth Industrial Revolution
+          (4IR) as the emergence of "cyber-physical systems" — a fusion of technologies blurring the line
+          between the physical, digital and biological worlds, building on the computing and internet
+          infrastructure of the Third Industrial Revolution but embedding technology far more deeply into
+          society and even the human body itself, through genome editing, new forms of machine intelligence,
+          and governance tools such as blockchain (World Economic Forum, 2016).
+        </p>
+        <p style="max-width:74ch;">
+          What distinguishes the 4IR from earlier waves of technological change is less the individual
+          technologies than their combined speed, scope and systemic reach: change is arriving faster,
+          touching more sectors simultaneously, and reshaping entire systems rather than single processes.
+          This creates real benefits — Herweijer et al. (2018) describe how G20 countries can use 4IR
+          technologies to support sustainable development, while Bianchini et al. (2018) show how digital
+          transformation is enabling more circular, less wasteful production models. But the same speed and
+          scope that produce these gains also drive the 4IR's central risk: disruption to employment,
+          biological and ethical questions raised by genome editing, and a real danger that these gains
+          concentrate among those who can already access and afford the technology, widening existing
+          inequality rather than closing it.
+        </p>
+
+        <div class="eyebrow">The Fifth Industrial Revolution</div>
+        <h2 style="max-width:60ch;">Putting the human back at the centre</h2>
+        <p style="max-width:74ch;">
+          Gauri and Van Eerden (2019) argue that the 4IR's weakness is precisely its technology-first focus:
+          by centring what machines can do, it risks dehumanising the outcomes it produces. The Fifth
+          Industrial Revolution (5IR) responds with a philosophy of harmonious human–machine collaboration,
+          aimed at the well-being of society, companies, employees and customers together, rather than
+          efficiency alone. Ziatdinov et al. (2024) connect this to the broader vision of Society 5.0, where
+          5IR-aligned technology is meant to co-evolve alongside healthcare, the economy, education,
+          cybersecurity, smart cities and the workforce — improvement across society, not just industry.
+          Anil (2025) frames this as a matter of technology convergence: 5IR isn't a single new invention,
+          but existing 4IR technologies increasingly designed around people rather than around themselves.
+        </p>
+
+        <div class="trend-sub">Mapping the balance: the Noble et al. matrix</div>
+        <p style="max-width:74ch;">
+          Noble et al. (2022) offer a practical way to evaluate whether a given use of technology is
+          actually achieving this balance, plotting "human strengths" against "technological strengths" to
+          produce four quadrants. A technology-focused quadrant (e.g. automated customer care centres) relies
+          on automation over empathy or judgement even where human traits are still needed. A
+          human-technology underutilisation quadrant covers mundane, repetitive work — packing, lifting,
+          stock monitoring, fast-food frontline roles — done without technological support that could ease
+          it. A human-focused quadrant (elderly care, childcare, small family-run businesses) requires
+          empathy and problem-solving that technology rarely assists, even where it plausibly could help. The
+          goal quadrant is human–machine collaboration: humans handling emotion- and creativity-based work
+          while machines handle the rest — what Gauri and Van Eerden (2019) describe as "humans and machines
+          dancing together" to improve societal well-being.
+        </p>
+
+        <div class="figure-wrap">
+          <svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Noble et al. 2022 human-technology strengths matrix">
+            <line x1="90" y1="30" x2="90" y2="400" stroke="#131B2E" stroke-width="1.5"/>
+            <line x1="90" y1="400" x2="600" y2="400" stroke="#131B2E" stroke-width="1.5"/>
+            <text x="10" y="24" font-family="IBM Plex Mono, monospace" font-size="12" fill="#131B2E">High</text>
+            <text x="10" y="410" font-family="IBM Plex Mono, monospace" font-size="12" fill="#131B2E">Low</text>
+            <text x="560" y="420" font-family="IBM Plex Mono, monospace" font-size="12" fill="#131B2E">High</text>
+            <text x="345" y="440" font-family="IBM Plex Mono, monospace" font-size="12" fill="#3EB8C4" text-anchor="middle">Human Strengths →</text>
+            <text x="-215" y="20" font-family="IBM Plex Mono, monospace" font-size="12" fill="#3EB8C4" transform="rotate(-90)" text-anchor="middle">Technological Strengths →</text>
+
+            <rect x="92" y="32" width="253" height="183" fill="#F5F3ED" stroke="#D8D3C4"/>
+            <text x="105" y="55" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="600" fill="#131B2E">Technology-Focused</text>
+            <text x="105" y="75" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5A6478">e.g. automated customer</text>
+            <text x="105" y="88" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5A6478">care centres</text>
+
+            <rect x="347" y="32" width="253" height="183" fill="#3EB8C4" fill-opacity="0.18" stroke="#3EB8C4"/>
+            <text x="360" y="55" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="600" fill="#131B2E">Collaboration: 5IR</text>
+            <text x="360" y="75" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#1F2A44">Humans do emotion &amp;</text>
+            <text x="360" y="88" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#1F2A44">creativity work; machines</text>
+            <text x="360" y="101" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#1F2A44">do the rest</text>
+
+            <rect x="92" y="217" width="253" height="183" fill="#F5F3ED" stroke="#D8D3C4"/>
+            <text x="105" y="240" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="600" fill="#131B2E">Underutilisation</text>
+            <text x="105" y="260" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5A6478">Packing, lifting/stocking,</text>
+            <text x="105" y="273" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5A6478">stockout monitoring,</text>
+            <text x="105" y="286" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5A6478">fast-food frontline work</text>
+
+            <rect x="347" y="217" width="253" height="183" fill="#F5F3ED" stroke="#D8D3C4"/>
+            <text x="360" y="240" font-family="Space Grotesk, sans-serif" font-size="13" font-weight="600" fill="#131B2E">Human-Focused</text>
+            <text x="360" y="260" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5A6478">Elderly care, childcare,</text>
+            <text x="360" y="273" font-family="IBM Plex Mono, monospace" font-size="10.5" fill="#5A6478">small family-run businesses</text>
+          </svg>
+          <p class="figure-caption">Figure 1. Human–technology strengths matrix, adapted from Noble et al. (2022).</p>
+        </div>
+
+        <div class="risk-box">
+          <strong>A more critical view.</strong> Not every account of the 5IR is this optimistic. Costa et
+          al. (2022) directly question whether the Fifth Industrial Revolution genuinely benefits global
+          civil society, or whether "harmonious collaboration" mainly describes wealthier economies and
+          firms already able to invest in both advanced technology and the human-centred design layered on
+          top of it — leaving the underutilisation and human-focused quadrants, disproportionately staffed by
+          lower-paid workers in poorer regions, without the resources to move toward genuine collaboration at
+          all. Treated uncritically, the 5IR risks becoming an aspiration mainly available to those who
+          already benefited most from the 4IR.
+        </div>
+
+        <div class="trend-sub">What the World Economic Forum's own risk data shows</div>
+        <p style="max-width:74ch;">
+          The World Economic Forum's Global Risks Report is a useful check on how urgent this shift actually
+          is. Comparing the 2025 edition (survey conducted September–October 2024) against the 2026 edition
+          (published January 2026) shows a clear movement on the two-year outlook: geoeconomic confrontation
+          jumped from 9th to 1st place — the single largest riser — while societal polarization and the
+          erosion of human rights and freedoms also moved up the ranking. State-based armed conflict,
+          extreme weather, and involuntary migration all fell in relative severity over the same period
+          (World Economic Forum, 2025, 2026).
+        </p>
+        <p style="max-width:74ch;">
+          On the ten-year outlook, environmental risks still dominate the top three in both editions, but
+          misinformation and disinformation climbed from 5th to 4th, and adverse outcomes of AI technologies
+          held a firm position just behind it — one of the fastest-rising risks identified in the 2026 report
+          overall. Read together with the 4IR/5IR discussion above, this is a fairly direct signal: the
+          technologies at the centre of the 4IR (AI chief among them) are increasingly seen by global experts
+          as a long-term societal risk in their own right, which is exactly the gap the 5IR's human-centred
+          philosophy is trying to close.
+        </p>
+
+        <div class="mini-stats">
+          <div class="mini-stat"><div class="num">9th → 1st</div><div class="lbl">Geoeconomic confrontation, 2-yr outlook</div></div>
+          <div class="mini-stat"><div class="num">5th → 4th</div><div class="lbl">Misinformation, 10-yr outlook</div></div>
+          <div class="mini-stat"><div class="num">Top 6</div><div class="lbl">Adverse AI outcomes, 10-yr outlook</div></div>
+        </div>
+
+        <div class="za-box">
+          <strong>As an IS&amp;T professional</strong>, this reframes the practical question: not simply
+          "can this system be automated," but "which quadrant does this system push society toward." A
+          system that lands in the technology-focused or underutilisation quadrant is arguably a design
+          failure even if it works technically — the aim, per the 5IR, is deliberately building toward
+          collaboration, while staying honest about who currently has the resources to get there.
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="references" style="background:var(--paper-dim);">
+      <div class="wrap">
+        <div class="eyebrow">Sources</div>
+        <h2>References</h2>
+        <ol class="ref-list">
+          <li>Anil, A. A. (2025, January 13). Technology convergence is leading the way for the fifth industrial revolution. World Economic Forum. <a href="https://www.weforum.org/stories/2025/01/technology-convergence-is-leading-the-way-for-accelerated-innovation-in-emerging-technology-areas/" target="_blank" rel="noopener">weforum.org</a></li>
+          <li>Bianchini, A., Pellegrini, M., Rossi, J., &amp; Saccani, C. (2018). A new productive model of circular economy enhanced by digital transformation in the Fourth Industrial Revolution — An integrated framework and real case studies. <em>XXIII Summer School "Francesco Turco", Industrial Systems Engineering.</em></li>
+          <li>Costa, C. M., Martinez-Galán, E., &amp; Leandro, F. J. (2022). Does fifth industrial revolution benefit or trouble the global civil society? In <em>Contestations in Global Civil Society</em> (pp. 45–62). Emerald Publishing Limited.</li>
+          <li>Gauri, P., &amp; Van Eerden, J. (2019). What the Fifth Industrial Revolution is and why it matters. <em>Europeansting.com</em>, 16.</li>
+          <li>Herweijer, C., Combes, B., Johnson, L., McCargow, R., Bhardwaj, S., Jackson, B., &amp; Ramchandani, P. (2018). Enabling a sustainable Fourth Industrial Revolution: How G20 countries can create the conditions for emerging technologies to benefit people and the planet (No. 2018-32). <em>Economics Discussion Papers.</em></li>
+          <li>Noble, S. M., Mende, M., Grewal, D., &amp; Parasuraman, A. (2022). The Fifth Industrial Revolution: How harmonious human–machine collaboration is triggering a retail and service [r]evolution. <em>Journal of Retailing, 98</em>(2), 199–208.</li>
+          <li>Schwab, K. (2019, January). Globalization 4.0: Shaping a new architecture in the age of the Fourth Industrial Revolution [Conference address]. World Economic Forum Annual Meeting, Davos, Switzerland.</li>
+          <li>World Economic Forum. (2016, January 14). The Fourth Industrial Revolution: What it means and how to respond. <a href="https://www.weforum.org/stories/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/" target="_blank" rel="noopener">weforum.org</a></li>
+          <li>World Economic Forum. (2025, January 15). <em>The Global Risks Report 2025</em> (20th ed.). <a href="https://www.weforum.org/publications/global-risks-report-2025/" target="_blank" rel="noopener">weforum.org</a></li>
+          <li>World Economic Forum. (2026, January 14). <em>The Global Risks Report 2026.</em> <a href="https://www.weforum.org/publications/global-risks-report-2026/" target="_blank" rel="noopener">weforum.org</a></li>
+          <li>Ziatdinov, R., Atteraya, M. S., &amp; Nabiyev, R. (2024). The Fifth Industrial Revolution as a transformative step towards Society 5.0. <em>Societies, 14</em>(19).</li>
+        </ol>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span class="footer-mono">© 2026 Aphelele Cele · Private page, shared by link only</span>
+      <span class="footer-mono"><a href="https://github.com/ApheleleCele" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/aphelele-cele-b87a442ba" target="_blank" rel="noopener">LinkedIn</a></span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
